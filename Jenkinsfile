@@ -17,12 +17,6 @@ pipeline {
         }
     }
 
-          stage('deployment stage') {
-              steps {
-                bat "mvn deploy"
-        }
-    }
-
   }
 
 }
